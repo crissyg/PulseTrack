@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461CCAF72DEF772F008C07BC /* PulseTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCAF62DEF772F008C07BC /* PulseTrackApp.swift */; };
+		461CCAF92DEF772F008C07BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCAF82DEF772F008C07BC /* ContentView.swift */; };
+		461CCAFB2DEF7734008C07BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461CCAFA2DEF7734008C07BC /* Assets.xcassets */; };
+		461CCAFF2DEF7734008C07BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461CCAFE2DEF7734008C07BC /* Preview Assets.xcassets */; };
+		461CCB092DEF7734008C07BC /* PulseTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB082DEF7734008C07BC /* PulseTrackTests.swift */; };
+		461CCB132DEF7734008C07BC /* PulseTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB122DEF7734008C07BC /* PulseTrackUITests.swift */; };
+		461CCB152DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB142DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461CCB052DEF7734008C07BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461CCAEB2DEF772F008C07BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461CCAF22DEF772F008C07BC;
+			remoteInfo = PulseTrack;
+		};
+		461CCB0F2DEF7734008C07BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461CCAEB2DEF772F008C07BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461CCAF22DEF772F008C07BC;
+			remoteInfo = PulseTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		461CCAF32DEF772F008C07BC /* PulseTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461CCAF62DEF772F008C07BC /* PulseTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackApp.swift; sourceTree = "<group>"; };
+		461CCAF82DEF772F008C07BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		461CCAFA2DEF7734008C07BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461CCAFC2DEF7734008C07BC /* PulseTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseTrack.entitlements; sourceTree = "<group>"; };
+		461CCAFE2DEF7734008C07BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		461CCB042DEF7734008C07BC /* PulseTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461CCB082DEF7734008C07BC /* PulseTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackTests.swift; sourceTree = "<group>"; };
+		461CCB0E2DEF7734008C07BC /* PulseTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461CCB122DEF7734008C07BC /* PulseTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackUITests.swift; sourceTree = "<group>"; };
+		461CCB142DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461CCAF02DEF772F008C07BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461CCB012DEF7734008C07BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461CCB0B2DEF7734008C07BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461CCAEA2DEF772F008C07BC = {
+			isa = PBXGroup;
+			children = (
+				461CCAF52DEF772F008C07BC /* PulseTrack */,
+				461CCB072DEF7734008C07BC /* PulseTrackTests */,
+				461CCB112DEF7734008C07BC /* PulseTrackUITests */,
+				461CCAF42DEF772F008C07BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		461CCAF42DEF772F008C07BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461CCAF32DEF772F008C07BC /* PulseTrack.app */,
+				461CCB042DEF7734008C07BC /* PulseTrackTests.xctest */,
+				461CCB0E2DEF7734008C07BC /* PulseTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461CCAF52DEF772F008C07BC /* PulseTrack */ = {
+			isa = PBXGroup;
+			children = (
+				461CCAF62DEF772F008C07BC /* PulseTrackApp.swift */,
+				461CCAF82DEF772F008C07BC /* ContentView.swift */,
+				461CCAFA2DEF7734008C07BC /* Assets.xcassets */,
+				461CCAFC2DEF7734008C07BC /* PulseTrack.entitlements */,
+				461CCAFD2DEF7734008C07BC /* Preview Content */,
+			);
+			path = PulseTrack;
+			sourceTree = "<group>";
+		};
+		461CCAFD2DEF7734008C07BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				461CCAFE2DEF7734008C07BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		461CCB072DEF7734008C07BC /* PulseTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				461CCB082DEF7734008C07BC /* PulseTrackTests.swift */,
+			);
+			path = PulseTrackTests;
+			sourceTree = "<group>";
+		};
+		461CCB112DEF7734008C07BC /* PulseTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				461CCB122DEF7734008C07BC /* PulseTrackUITests.swift */,
+				461CCB142DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift */,
+			);
+			path = PulseTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461CCAF22DEF772F008C07BC /* PulseTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461CCB182DEF7734008C07BC /* Build configuration list for PBXNativeTarget "PulseTrack" */;
+			buildPhases = (
+				461CCAEF2DEF772F008C07BC /* Sources */,
+				461CCAF02DEF772F008C07BC /* Frameworks */,
+				461CCAF12DEF772F008C07BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseTrack;
+			productName = PulseTrack;
+			productReference = 461CCAF32DEF772F008C07BC /* PulseTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461CCB032DEF7734008C07BC /* PulseTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461CCB1B2DEF7734008C07BC /* Build configuration list for PBXNativeTarget "PulseTrackTests" */;
+			buildPhases = (
+				461CCB002DEF7734008C07BC /* Sources */,
+				461CCB012DEF7734008C07BC /* Frameworks */,
+				461CCB022DEF7734008C07BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461CCB062DEF7734008C07BC /* PBXTargetDependency */,
+			);
+			name = PulseTrackTests;
+			productName = PulseTrackTests;
+			productReference = 461CCB042DEF7734008C07BC /* PulseTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		461CCB0D2DEF7734008C07BC /* PulseTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461CCB1E2DEF7734008C07BC /* Build configuration list for PBXNativeTarget "PulseTrackUITests" */;
+			buildPhases = (
+				461CCB0A2DEF7734008C07BC /* Sources */,
+				461CCB0B2DEF7734008C07BC /* Frameworks */,
+				461CCB0C2DEF7734008C07BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461CCB102DEF7734008C07BC /* PBXTargetDependency */,
+			);
+			name = PulseTrackUITests;
+			productName = PulseTrackUITests;
+			productReference = 461CCB0E2DEF7734008C07BC /* PulseTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461CCAEB2DEF772F008C07BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					461CCAF22DEF772F008C07BC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					461CCB032DEF7734008C07BC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 461CCAF22DEF772F008C07BC;
+					};
+					461CCB0D2DEF7734008C07BC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 461CCAF22DEF772F008C07BC;
+					};
+				};
+			};
+			buildConfigurationList = 461CCAEE2DEF772F008C07BC /* Build configuration list for PBXProject "PulseTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461CCAEA2DEF772F008C07BC;
+			productRefGroup = 461CCAF42DEF772F008C07BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461CCAF22DEF772F008C07BC /* PulseTrack */,
+				461CCB032DEF7734008C07BC /* PulseTrackTests */,
+				461CCB0D2DEF7734008C07BC /* PulseTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461CCAF12DEF772F008C07BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461CCAFF2DEF7734008C07BC /* Preview Assets.xcassets in Resources */,
+				461CCAFB2DEF7734008C07BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461CCB022DEF7734008C07BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461CCB0C2DEF7734008C07BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461CCAEF2DEF772F008C07BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461CCAF92DEF772F008C07BC /* ContentView.swift in Sources */,
+				461CCAF72DEF772F008C07BC /* PulseTrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461CCB002DEF7734008C07BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461CCB092DEF7734008C07BC /* PulseTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461CCB0A2DEF7734008C07BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461CCB152DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift in Sources */,
+				461CCB132DEF7734008C07BC /* PulseTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461CCB062DEF7734008C07BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461CCAF22DEF772F008C07BC /* PulseTrack */;
+			targetProxy = 461CCB052DEF7734008C07BC /* PBXContainerItemProxy */;
+		};
+		461CCB102DEF7734008C07BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461CCAF22DEF772F008C07BC /* PulseTrack */;
+			targetProxy = 461CCB0F2DEF7734008C07BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		461CCB162DEF7734008C07BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		461CCB172DEF7734008C07BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		461CCB192DEF7734008C07BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PulseTrack/PulseTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PulseTrack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461CCB1A2DEF7734008C07BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PulseTrack/PulseTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PulseTrack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		461CCB1C2DEF7734008C07BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseTrack";
+			};
+			name = Debug;
+		};
+		461CCB1D2DEF7734008C07BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseTrack";
+			};
+			name = Release;
+		};
+		461CCB1F2DEF7734008C07BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulseTrack;
+			};
+			name = Debug;
+		};
+		461CCB202DEF7734008C07BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulseTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461CCAEE2DEF772F008C07BC /* Build configuration list for PBXProject "PulseTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461CCB162DEF7734008C07BC /* Debug */,
+				461CCB172DEF7734008C07BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461CCB182DEF7734008C07BC /* Build configuration list for PBXNativeTarget "PulseTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461CCB192DEF7734008C07BC /* Debug */,
+				461CCB1A2DEF7734008C07BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461CCB1B2DEF7734008C07BC /* Build configuration list for PBXNativeTarget "PulseTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461CCB1C2DEF7734008C07BC /* Debug */,
+				461CCB1D2DEF7734008C07BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461CCB1E2DEF7734008C07BC /* Build configuration list for PBXNativeTarget "PulseTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461CCB1F2DEF7734008C07BC /* Debug */,
+				461CCB202DEF7734008C07BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 461CCAEB2DEF772F008C07BC /* Project object */;
+}
