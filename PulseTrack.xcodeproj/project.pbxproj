@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		461CCAF72DEF772F008C07BC /* PulseTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCAF62DEF772F008C07BC /* PulseTrackApp.swift */; };
-		461CCAF92DEF772F008C07BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCAF82DEF772F008C07BC /* ContentView.swift */; };
 		461CCAFB2DEF7734008C07BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461CCAFA2DEF7734008C07BC /* Assets.xcassets */; };
 		461CCAFF2DEF7734008C07BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461CCAFE2DEF7734008C07BC /* Preview Assets.xcassets */; };
 		461CCB092DEF7734008C07BC /* PulseTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB082DEF7734008C07BC /* PulseTrackTests.swift */; };
 		461CCB132DEF7734008C07BC /* PulseTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB122DEF7734008C07BC /* PulseTrackUITests.swift */; };
 		461CCB152DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB142DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift */; };
+		461CCB2F2DEF8334008C07BC /* PulseTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB2E2DEF8334008C07BC /* PulseTrackApp.swift */; };
+		461CCB312DEF842B008C07BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB302DEF842B008C07BC /* ContentView.swift */; };
+		461CCB342DEF8787008C07BC /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB332DEF8787008C07BC /* OnboardingFlow.swift */; };
+		461CCB362DEF87FC008C07BC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB352DEF87FC008C07BC /* DashboardView.swift */; };
+		461CCB382DEF883E008C07BC /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB372DEF883E008C07BC /* FeedbackView.swift */; };
+		461CCB3A2DEF9214008C07BC /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB392DEF9213008C07BC /* OnboardingPageView.swift */; };
+		461CCB3C2DEF9277008C07BC /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB3B2DEF9277008C07BC /* OnboardingPage.swift */; };
+		461CCB3E2DEF9F0F008C07BC /* HealthMetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB3D2DEF9F0F008C07BC /* HealthMetricCard.swift */; };
+		461CCB482DEFED3B008C07BC /* FeedbackPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461CCB472DEFED3B008C07BC /* FeedbackPromptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +42,6 @@
 
 /* Begin PBXFileReference section */
 		461CCAF32DEF772F008C07BC /* PulseTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		461CCAF62DEF772F008C07BC /* PulseTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackApp.swift; sourceTree = "<group>"; };
-		461CCAF82DEF772F008C07BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		461CCAFA2DEF7734008C07BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461CCAFC2DEF7734008C07BC /* PulseTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseTrack.entitlements; sourceTree = "<group>"; };
 		461CCAFE2DEF7734008C07BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,15 @@
 		461CCB0E2DEF7734008C07BC /* PulseTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461CCB122DEF7734008C07BC /* PulseTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackUITests.swift; sourceTree = "<group>"; };
 		461CCB142DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		461CCB2E2DEF8334008C07BC /* PulseTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrackApp.swift; sourceTree = "<group>"; };
+		461CCB302DEF842B008C07BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		461CCB332DEF8787008C07BC /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		461CCB352DEF87FC008C07BC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		461CCB372DEF883E008C07BC /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		461CCB392DEF9213008C07BC /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		461CCB3B2DEF9277008C07BC /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		461CCB3D2DEF9F0F008C07BC /* HealthMetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetricCard.swift; sourceTree = "<group>"; };
+		461CCB472DEFED3B008C07BC /* FeedbackPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackPromptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +109,10 @@
 		461CCAF52DEF772F008C07BC /* PulseTrack */ = {
 			isa = PBXGroup;
 			children = (
-				461CCAF62DEF772F008C07BC /* PulseTrackApp.swift */,
-				461CCAF82DEF772F008C07BC /* ContentView.swift */,
+				461CCB322DEF8553008C07BC /* Components */,
+				461CCB2D2DEF82FB008C07BC /* Views */,
+				461CCB2C2DEF82D4008C07BC /* Models */,
+				461CCB2B2DEF82C7008C07BC /* App */,
 				461CCAFA2DEF7734008C07BC /* Assets.xcassets */,
 				461CCAFC2DEF7734008C07BC /* PulseTrack.entitlements */,
 				461CCAFD2DEF7734008C07BC /* Preview Content */,
@@ -127,6 +143,43 @@
 				461CCB142DEF7734008C07BC /* PulseTrackUITestsLaunchTests.swift */,
 			);
 			path = PulseTrackUITests;
+			sourceTree = "<group>";
+		};
+		461CCB2B2DEF82C7008C07BC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				461CCB2E2DEF8334008C07BC /* PulseTrackApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		461CCB2C2DEF82D4008C07BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				461CCB3B2DEF9277008C07BC /* OnboardingPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		461CCB2D2DEF82FB008C07BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				461CCB302DEF842B008C07BC /* ContentView.swift */,
+				461CCB332DEF8787008C07BC /* OnboardingFlow.swift */,
+				461CCB352DEF87FC008C07BC /* DashboardView.swift */,
+				461CCB372DEF883E008C07BC /* FeedbackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		461CCB322DEF8553008C07BC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				461CCB392DEF9213008C07BC /* OnboardingPageView.swift */,
+				461CCB3D2DEF9F0F008C07BC /* HealthMetricCard.swift */,
+				461CCB472DEFED3B008C07BC /* FeedbackPromptView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +250,7 @@
 				TargetAttributes = {
 					461CCAF22DEF772F008C07BC = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					461CCB032DEF7734008C07BC = {
 						CreatedOnToolsVersion = 15.2;
@@ -259,8 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				461CCAF92DEF772F008C07BC /* ContentView.swift in Sources */,
-				461CCAF72DEF772F008C07BC /* PulseTrackApp.swift in Sources */,
+				461CCB3A2DEF9214008C07BC /* OnboardingPageView.swift in Sources */,
+				461CCB342DEF8787008C07BC /* OnboardingFlow.swift in Sources */,
+				461CCB382DEF883E008C07BC /* FeedbackView.swift in Sources */,
+				461CCB362DEF87FC008C07BC /* DashboardView.swift in Sources */,
+				461CCB312DEF842B008C07BC /* ContentView.swift in Sources */,
+				461CCB3E2DEF9F0F008C07BC /* HealthMetricCard.swift in Sources */,
+				461CCB482DEFED3B008C07BC /* FeedbackPromptView.swift in Sources */,
+				461CCB3C2DEF9277008C07BC /* OnboardingPage.swift in Sources */,
+				461CCB2F2DEF8334008C07BC /* PulseTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PulseTrack/PulseTrack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -440,10 +502,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PulseTrack/PulseTrack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -476,10 +541,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.christinagordon.PulseTrack.PulseTrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
