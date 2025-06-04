@@ -2,7 +2,7 @@
 //  PulseTrackApp.swift
 //  PulseTrack
 //
-//  Created by Tina G on 6/3/25.
+//  Created by Christina G on 6/3/25.
 //
 
 import SwiftUI
