@@ -1,6 +1,6 @@
 # PulseTrack
 
-A modern iOS health monitoring app focused on heart rate tracking and pulse analysis, built with SwiftUI.
+A iOS health monitoring app focused on heart rate tracking and pulse analysis, built with SwiftUI.
 
 ## Overview
 
