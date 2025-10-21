@@ -3,5 +3,6 @@
 # User-specific data
 xcuserdata/
 .xcodeproj
-# Workspace files, if you have one
+# Workspace files
+PulseTrack.xcodeproj
 # xcschemes/
