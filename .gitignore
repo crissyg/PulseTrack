@@ -1,0 +1,7 @@
+# Xcode
+.DS_Store
+# User-specific data
+xcuserdata/
+.xcodeproj
+# Workspace files, if you have one
+# xcschemes/
